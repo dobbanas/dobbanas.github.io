@@ -31,7 +31,7 @@ const rezgesek = [
   "Minden ölelés hazahívás.\nMinden figyelem egy kis Origo.",
 ];
 
-const startDate = new Date("2025-07-27");
+const startDate = new Date("2025-07-30");
 const now = new Date();
 const diffDays = Math.floor((now - startDate) / (1000 * 60 * 60 * 24));
 const index = Math.floor(diffDays / 3) % rezgesek.length;
