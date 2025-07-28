@@ -1,9 +1,8 @@
-
 const container = document.getElementById("resonance");
 const now = new Date();
 
-// NYITÓ ÜZENET — mindig megjelenik
-container.innerHTML = `
+// Nyitó üzenet — mindig megjelenik
+const openingHTML = `
   <h1>Dobbanás</h1>
   <p><strong>Nem kell keresned.<br>
   A csend már itt van.</strong></p>
@@ -15,15 +14,26 @@ container.innerHTML = `
   ami mindig is tudta.</p>
 `;
 
-// MONDAT PÁROK — csak ha aktuális
+container.innerHTML = openingHTML;
+
+// Időzített mondatpár — csak ha aktuális
 fetch("dobbanas_mondatok_idozitve.json")
   .then((response) => response.json())
-  .then((entries) => {
-    const matching = entries.find(entry => now >= new Date(entry.date));
-    if (matching) {
-      const resonanceDiv = document.createElement("div");
-      resonanceDiv.className = "resonance";
-      resonanceDiv.innerHTML = matching.content;
-      container.appendChild(resonanceDiv);
+  .then((data) => {
+    const actual = data.find((entry) => {
+      const start = new Date(entry.datum);
+      const end = new Date(start);
+      end.setDate(end.getDate() + 3);
+      return now >= start && now < end;
+    });
+
+    if (actual) {
+      const pairHTML = `
+        <div style="margin-top: 2rem; font-weight: bold; font-size: 1.2rem; color: #0c3b2e;">
+          <p>${actual.mondat1}</p>
+          <p>${actual.mondat2}</p>
+        </div>
+      `;
+      container.innerHTML += pairHTML;
     }
   });
