@@ -14,7 +14,7 @@ container.innerHTML = `
 `;
 
 const entries = [
-  { date: new Date("2025-07-29"), content: `1.
+  { date: new Date("2025-07-28"), content: `1.
 Nem kell, hogy tudd, hogyan tovább.
 Elég, ha engeded, hogy vezessen, ami mindig is benned dobogott.` },
   { date: new Date("2025-08-01"), content: `2.
