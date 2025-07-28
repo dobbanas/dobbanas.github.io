@@ -14,7 +14,7 @@ container.innerHTML = `
 `;
 
 const entries = [
-  { date: new Date("2025-07-29"), icon: "🧭", content: `1.<br>1.<br>Nem kell, hogy tudd, hogyan tovább.<br>Elég, ha engeded, hogy vezessen, ami mindig is benned dobogott.` },
+  { date: new Date("2025-07-28"), icon: "🧭", content: `1.<br>1.<br>Nem kell, hogy tudd, hogyan tovább.<br>Elég, ha engeded, hogy vezessen, ami mindig is benned dobogott.` },
   { date: new Date("2025-08-01"), icon: "🚪", content: `2.<br>2.<br>Az út nem kívül halad.<br>Minden lépés csak emlékeztet arra, hogy már ott vagy.` },
   { date: new Date("2025-08-04"), icon: "🌕", content: `3.<br>3.<br>A jelenlét nem szó.<br>Nem gondolat. Nem forma.<br>A jelenlét: te.` },
   { date: new Date("2025-08-07"), icon: "🌬️", content: `4.<br>4.<br>Ez a csend nem némaság.<br>Ez a csend: a teljesség előtti légzés. A Van előtti Van.` },
