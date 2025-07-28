@@ -1,4 +1,3 @@
-
 const container = document.getElementById("resonance");
 const now = new Date();
 
