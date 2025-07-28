@@ -4,7 +4,7 @@ const now = new Date();
 
 const entries = [
   {
-    date: new Date("2025-07-28"),
+    date: new Date("2025-07-29"),
     content: `🌿Nem kell, hogy tudd, hogyan tovább.<br><br>Elég, ha engeded, hogy vezessen, ami mindig is benned dobogott...`
   }
 ];
