@@ -46,19 +46,35 @@
     opacity: 0.94;
   }
 }
+.uveg {
+  opacity: 0;
+  animation: fadeText 6s ease-in forwards;
+  animation-delay: 1.5s;
+}
+
+@keyframes fadeText {
+  to {
+    opacity: 1;
+  }
+}
+    
   </style>
+  
 </head>
 <body>
   <div class="dobbanas">
     <h1 class="dobbanas-cim">Dobbanás</h1>
-    <p><strong>Nem kell keresned.<br>
+
+    <p class="uveg"><strong>Nem kell keresned.<br>
     A csend már itt van.</strong></p>
-    <p>Nem kívül, nem máshol –<br>
+
+    <p class="uveg">Nem kívül, nem máshol –<br>
     Benned.<br>
     Ahogy olvasod,<br>
     talán nem a szemed olvassa –<br>
     hanem valami régi benned,<br>
     ami mindig is tudta.</p>
+
     <div class="resonance" id="resonance"></div>
   </div>
   <script src="dobbanas.js"></script>
