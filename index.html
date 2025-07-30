@@ -32,11 +32,25 @@
       font-size: 1.25rem;
       color: #0c3b2e;
     }
+    .dobbanas-cim {
+  animation: pulseText 3.5s ease-in-out infinite;
+}
+
+@keyframes pulseText {
+  0%, 100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  50% {
+    transform: scale(1.035);
+    opacity: 0.92;
+  }
+}
   </style>
 </head>
 <body>
   <div class="dobbanas">
-    <h1>Dobbanás</h1>
+    <h1 class="dobbanas-cim">Dobbanás</h1>
     <p><strong>Nem kell keresned.<br>
     A csend már itt van.</strong></p>
     <p>Nem kívül, nem máshol –<br>
