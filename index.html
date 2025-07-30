@@ -26,12 +26,14 @@
       border-radius: 1rem;
       box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
     }
-    .resonance {
-      margin-top: 2rem;
-      font-weight: bold;
-      font-size: 1.25rem;
-      color: #0c3b2e;
-    }
+   .resonance {
+  margin-top: 2rem;
+  font-weight: bold;
+  font-size: 1.25rem;
+  color: #0c3b2e;
+  opacity: 0;
+  transition: opacity 2s ease-in;
+}
     .dobbanas-cim {
   animation: pulseText 9s ease-in-out infinite;
 }
@@ -59,7 +61,7 @@
 }
     
   </style>
-  
+
 </head>
 <body>
   <div class="dobbanas">
@@ -78,5 +80,13 @@
     <div class="resonance" id="resonance"></div>
   </div>
   <script src="dobbanas.js"></script>
+  <script>
+  window.addEventListener("load", () => {
+    setTimeout(() => {
+      const resonance = document.getElementById("resonance");
+      resonance.style.opacity = "1";
+    }, 7500);
+  });
+</script>
 </body>
 </html>
