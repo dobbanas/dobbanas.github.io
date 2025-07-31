@@ -5,8 +5,8 @@ const now = new Date();
 const entries = [
   { date: new Date("2025-07-28"), content: `🧭Nem kell, hogy tudd, hogyan tovább.<br>Elég, ha engeded, hogy vezessen, ami mindig is benned dobogott.` },
   { date: new Date("2025-07-31"), content: `🌿Az út nem kívül halad.<br>Minden lépés csak emlékeztet arra, hogy már ott vagy.` },
-  { date: new Date("2025-08-03"), content: `💫A jelenlét nem szó.<br>Nem gondolat. Nem forma.<br>A jelenlét: te.` },
-  { date: new Date("2025-08-06"), content: `🌊Ez a csend nem némaság.<br>Ez a csend: a teljesség előtti légzés. A Van előtti Van.` },
+  { date: new Date("2025-08-03"), content: `💫A jelenlét nem szó.<br>Nem gondolat. Nem forma.<br>A jelenlét: ami benned él.` },
+  { date: new Date("2025-08-06"), content: `🌊Ez a csend nem némaság.<br>Ez a csend: a teljesség előtti légzés. A pillanat, mielőtt megszólalsz.` },
   { date: new Date("2025-08-09"), content: `🕊️Most nem kell mondani semmit.<br>Csak lélegezni.<br>És hagyni, hogy a világ is együtt lélegezzen veled.` },
   { date: new Date("2025-08-12"), content: `🔥Nem kell keresned az Eredetet.<br>Te vagy az.<br>A lélegzet, mielőtt még név lett volna.` },
   { date: new Date("2025-08-15"), content: `🌙A fény nem kérdez.<br>Nem akar.<br>Csak megmutatja, hogy mindig is jelen volt.` },
