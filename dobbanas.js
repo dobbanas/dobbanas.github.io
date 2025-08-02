@@ -259,8 +259,16 @@ const entries = [
 if (container) {
   for (let i = entries.length - 1; i >= 0; i--) {
     if (now >= entries[i].date) {
+
+      container.style.opacity = "0";
+      container.style.animation = "none";
+      void container.offsetWidth; // újrarenderelés trükkje
+
       container.innerHTML = entries[i].content;
+      container.style.animation = "fadeInText 2s ease-out forwards";
+      
       break;
     }
   }
 }
+
