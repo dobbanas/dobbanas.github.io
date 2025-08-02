@@ -75,13 +75,15 @@
     }
 
     .resonance {
-      margin-top: 2rem;
-      font-weight: bold;
-      font-size: 1.25rem;
-      color: #0c3b2e;
-      opacity: 0;
-      transition: opacity 2s ease-in;
-       }
+  margin-top: 2rem;
+  font-weight: bold;
+  font-size: 1.25rem;
+  color: #0c3b2e;
+  opacity: 0;
+  animation: fadeInText 2s ease-out forwards;
+  animation-delay: 7.5s;
+}
+
       @keyframes fadeInText {
       from {
         opacity: 0;
