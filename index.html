@@ -7,7 +7,6 @@
   <style>
     body {
       margin: 0;
-      background: radial-gradient(circle at center, #edf8f2, #cfe7d7);
       display: flex;
       justify-content: center;
       align-items: center;
@@ -16,7 +15,19 @@
       color: #2c2c2c;
       text-align: center;
       padding: 2rem;
+      animation: subtlePulse 18s ease-in-out infinite;
+      background: radial-gradient(circle at center, #eefaf5 0%, #d0e6db 40%, #bedfd1 100%);
     }
+
+    @keyframes subtlePulse {
+      0%, 100% {
+        background: radial-gradient(circle at center, #eefaf5 0%, #d0e6db 40%, #bedfd1 100%);
+      }
+      50% {
+        background: radial-gradient(circle at center, #f3fdf8 0%, #ccece0 40%, #b9d8c9 100%);
+      }
+    }
+
     .dobbanas {
       font-size: 1.5rem;
       line-height: 1.8;
@@ -26,49 +37,58 @@
       border-radius: 1rem;
       box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
     }
-   .resonance {
-  margin-top: 2rem;
-  font-weight: bold;
-  font-size: 1.25rem;
-  color: #0c3b2e;
-  opacity: 0;
-  transition: opacity 2s ease-in;
-}
+
     .dobbanas-cim {
-  animation: pulseText 9s ease-in-out infinite;
-}
+      animation: pulseText 9s ease-in-out infinite, glow 12s ease-in-out infinite;
+    }
 
-@keyframes pulseText {
-  0%, 100% {
-    transform: scale(1);
-    opacity: 1;
-  }
-  50% {
-    transform: scale(1.015);
-    opacity: 0.94;
-  }
-}
-.uveg {
-  opacity: 0;
-  animation: fadeText 6s ease-in forwards;
-  animation-delay: 1.5s;
-}
+    @keyframes pulseText {
+      0%, 100% {
+        transform: scale(1);
+        opacity: 1;
+      }
+      50% {
+        transform: scale(1.015);
+        opacity: 0.94;
+      }
+    }
 
-@keyframes fadeText {
-  to {
-    opacity: 1;
-  }
-}
-    
+    @keyframes glow {
+      0%, 100% {
+        text-shadow: 0 0 4px #b5e1c2, 0 0 10px #c6f0e0;
+      }
+      50% {
+        text-shadow: 0 0 12px #b5e1c2, 0 0 20px #b9f8d6;
+      }
+    }
+
+    .uveg {
+      opacity: 0;
+      animation: fadeText 6s ease-in forwards;
+      animation-delay: 1.5s;
+    }
+
+    @keyframes fadeText {
+      to {
+        opacity: 1;
+      }
+    }
+
+    .resonance {
+      margin-top: 2rem;
+      font-weight: bold;
+      font-size: 1.25rem;
+      color: #0c3b2e;
+      opacity: 0;
+      transition: opacity 2s ease-in;
+    }
   </style>
-
 </head>
 <body>
   <div class="dobbanas">
     <h1 class="dobbanas-cim">Dobbanás</h1>
 
-    <p class="uveg"><strong>Nem kell keresned.<br>
-    A csend már itt van.</strong></p>
+    <p class="uveg"><strong>Nem kell keresned.<br>A csend már itt van.</strong></p>
 
     <p class="uveg">Nem kívül, nem máshol –<br>
     Benned.<br>
@@ -79,14 +99,19 @@
 
     <div class="resonance" id="resonance"></div>
   </div>
+
   <script src="dobbanas.js"></script>
   <script>
-  window.addEventListener("load", () => {
-    setTimeout(() => {
-      const resonance = document.getElementById("resonance");
-      resonance.style.opacity = "1";
-    }, 7500);
-  });
+    window.addEventListener("load", () => {
+      setTimeout(() => {
+        const resonance = document.getElementById("resonance");
+        resonance.style.opacity = "1";
+      }, 7500);
+    });
+  </script>
+</body>
+</html>
+
 </script>
 </body>
 </html>
