@@ -260,7 +260,7 @@ if (container) {
   for (let i = entries.length - 1; i >= 0; i--) {
     if (now >= entries[i].date) {
 
-      // Késleltetett megjelenítés (pl. 3.5 másodperc múlva)
+      // Késleltetett megjelenítés (pl. 4.5 másodperc múlva)
       setTimeout(() => {
         container.style.opacity = "0";
         container.style.animation = "none";
