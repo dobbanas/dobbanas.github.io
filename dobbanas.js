@@ -268,7 +268,7 @@ if (container) {
 
         container.innerHTML = entries[i].content;
         container.style.animation = "fadeInText 2s ease-out forwards";
-      }, 3500); // 3.5 másodperc késleltetés
+      }, 4500); // 4.5 másodperc késleltetés
 
       break;
     }
