@@ -15,8 +15,8 @@
       color: #2c2c2c;
       text-align: center;
       padding: 2rem;
-      animation: subtlePulse 18s ease-in-out infinite;
       background: radial-gradient(circle at center, #eefaf5 0%, #d0e6db 40%, #bedfd1 100%);
+      animation: subtlePulse 18s ease-in-out infinite;
     }
 
     @keyframes subtlePulse {
@@ -43,27 +43,13 @@
     }
 
     @keyframes pulseText {
-      0%, 100% {
-        transform: scale(1);
-        opacity: 1;
-      }
-      50% {
-        transform: scale(1.015);
-        opacity: 0.94;
-      }
+      0%, 100% { transform: scale(1); opacity: 1; }
+      50% { transform: scale(1.015); opacity: 0.94; }
     }
 
     @keyframes glow {
-      0%, 100% {
-        text-shadow: 0 0 4px #b5e1c2, 0 0 10px #c6f0e0;
-      }
-      50% {
-        text-shadow: 0 0 12px #b5e1c2, 0 0 20px #b9f8d6;
-      }
-    }
-
-    .uveg {
-      opacity: 0;
+      0%, 100% { text-shadow: 0 0 4px #b5e1c2, 0 0 10px #c6f0e0; }
+      50% { text-shadow: 0 0 12px #b5e1c2, 0 0 20px #b9f8d6; }
     }
 
     .resonance {
@@ -74,29 +60,19 @@
       opacity: 0;
     }
 
-    @keyframes fadeInDelayed {
-      0% { opacity: 0; transform: translateY(10px); }
-      40% { opacity: 0; }
-      100% { opacity: 1; transform: translateY(0); }
-    }
-
-    @keyframes fadeInLater {
-      0% { opacity: 0; transform: translateY(12px); }
-      60% { opacity: 0; }
-      100% { opacity: 1; transform: translateY(0); }
+    .uveg {
+      opacity: 0;
     }
 
     @keyframes fadeInText {
-      from {
-        opacity: 0;
-        transform: translateY(12px);
-        filter: blur(1px);
-      }
-      to {
-        opacity: 1;
-        transform: translateY(0);
-        filter: blur(0);
-      }
+      from { opacity: 0; transform: translateY(12px); filter: blur(1px); }
+      to { opacity: 1; transform: translateY(0); filter: blur(0); }
+    }
+
+    @keyframes fadeInLater {
+      0% { opacity: 0; transform: translateY(10px); }
+      60% { opacity: 0; }
+      100% { opacity: 1; transform: translateY(0); }
     }
   </style>
 </head>
@@ -109,18 +85,38 @@
     <p class="uveg" id="uveg1"><strong>Nem kell keresned.<br>A csend már itt van.</strong></p>
 
     <p class="uveg" id="uveg2">Nem kívül, nem máshol –<br>
-      Benned.<br>
-      Ahogy olvasod,<br>
-      talán nem a szemed olvassa –<br>
-      hanem valami régi benned,<br>
-      ami mindig is tudta.</p>
+    Benned.<br>
+    Ahogy olvasod,<br>
+    talán nem a szemed olvassa –<br>
+    hanem valami régi benned,<br>
+    ami mindig is tudta.</p>
   </div>
 
   <script src="dobbanas.js"></script>
+  <script>
+    window.addEventListener("load", () => {
+      const resonance = document.getElementById("resonance");
+      const uveg1 = document.getElementById("uveg1");
+      const uveg2 = document.getElementById("uveg2");
+
+      // Mondatpár animáció
+      setTimeout(() => {
+        resonance.style.opacity = "1";
+        resonance.style.animation = "fadeInText 2.8s ease-out forwards";
+      }, 4500);
+
+      // Állandó üzenetek
+      setTimeout(() => {
+        uveg1.style.opacity = "1";
+        uveg1.style.animation = "fadeInLater 2.8s ease-out forwards";
+      }, 7500);
+
+      setTimeout(() => {
+        uveg2.style.opacity = "1";
+        uveg2.style.animation = "fadeInLater 3s ease-out forwards";
+      }, 8500);
+    });
+  </script>
 </body>
 </html>
 
-
-</script>
-</body>
-</html>
