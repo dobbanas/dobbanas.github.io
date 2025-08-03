@@ -85,6 +85,19 @@
       60% { opacity: 0; }
       100% { opacity: 1; transform: translateY(0); }
     }
+
+    @keyframes fadeInText {
+      from {
+        opacity: 0;
+        transform: translateY(12px);
+        filter: blur(1px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+        filter: blur(0);
+      }
+    }
   </style>
 </head>
 <body>
@@ -96,38 +109,17 @@
     <p class="uveg" id="uveg1"><strong>Nem kell keresned.<br>A csend már itt van.</strong></p>
 
     <p class="uveg" id="uveg2">Nem kívül, nem máshol –<br>
-    Benned.<br>
-    Ahogy olvasod,<br>
-    talán nem a szemed olvassa –<br>
-    hanem valami régi benned,<br>
-    ami mindig is tudta.</p>
+      Benned.<br>
+      Ahogy olvasod,<br>
+      talán nem a szemed olvassa –<br>
+      hanem valami régi benned,<br>
+      ami mindig is tudta.</p>
   </div>
 
   <script src="dobbanas.js"></script>
-  <script>
-    window.addEventListener("load", () => {
-      const resonance = document.getElementById("resonance");
-      const uveg1 = document.getElementById("uveg1");
-      const uveg2 = document.getElementById("uveg2");
-
-      setTimeout(() => {
-        resonance.style.opacity = "1";
-        resonance.style.animation = "fadeInDelayed 2.8s ease-out forwards";
-      }, 2200);
-
-      setTimeout(() => {
-        uveg1.style.opacity = "1";
-        uveg1.style.animation = "fadeInLater 2.8s ease-out forwards";
-      }, 5400);
-
-      setTimeout(() => {
-        uveg2.style.opacity = "1";
-        uveg2.style.animation = "fadeInLater 3.2s ease-out forwards";
-      }, 6200);
-    });
-  </script>
 </body>
 </html>
+
 
 </script>
 </body>
