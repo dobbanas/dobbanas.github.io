@@ -259,15 +259,14 @@ const entries = [
 if (container) {
   for (let i = entries.length - 1; i >= 0; i--) {
     if (now >= entries[i].date) {
-      // Késleltetett megjelenítés (a fő szöveg után)
       setTimeout(() => {
         container.style.opacity = "0";
         container.style.animation = "none";
-        void container.offsetWidth; // újrarenderelés trükk
+        void container.offsetWidth;
 
         container.innerHTML = entries[i].content;
         container.style.animation = "fadeInText 2.8s ease-out forwards";
-      }, 4500); // 4.5 másodperc után jelenik meg
+      }, 4500);
       break;
     }
   }
