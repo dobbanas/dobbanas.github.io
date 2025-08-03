@@ -260,15 +260,19 @@ if (container) {
   for (let i = entries.length - 1; i >= 0; i--) {
     if (now >= entries[i].date) {
 
-      container.style.opacity = "0";
-      container.style.animation = "none";
-      void container.offsetWidth; // újrarenderelés trükkje
+      // Késleltetett megjelenítés (pl. 3.5 másodperc múlva)
+      setTimeout(() => {
+        container.style.opacity = "0";
+        container.style.animation = "none";
+        void container.offsetWidth; // újrarenderelés trükkje
 
-      container.innerHTML = entries[i].content;
-      container.style.animation = "fadeInText 2s ease-out forwards";
-      
+        container.innerHTML = entries[i].content;
+        container.style.animation = "fadeInText 2s ease-out forwards";
+      }, 3500); // 3.5 másodperc késleltetés
+
       break;
     }
   }
 }
+
 
