@@ -74,48 +74,54 @@
       60% { opacity: 0; }
       100% { opacity: 1; transform: translateY(0); }
     }
+
+    /* 🌙 Éjszakai mód */
     body.night-mode {
-  background: radial-gradient(circle at center, #0e1b1b 0%, #162423 60%, #1c2f2e 100%);
-  color: #fefae0;
-}
+      background: radial-gradient(circle at center, #0e1b1b 0%, #162423 60%, #1c2f2e 100%);
+      color: #fefae0;
+    }
 
-body.night-mode .dobbanas {
-  background: linear-gradient(145deg, #1f2d2a, #2c3a38);
-  box-shadow: 0 0 24px rgba(255, 255, 240, 0.06);
-}
+    body.night-mode .dobbanas {
+      background: linear-gradient(145deg, #1f2d2a, #2c3a38);
+      box-shadow: 0 0 24px rgba(255, 255, 240, 0.06);
+    }
 
-body.night-mode .dobbanas-cim {
-  text-shadow: 0 0 8px #fefae0;
-}
+    body.night-mode .dobbanas-cim {
+      text-shadow: 0 0 8px #fefae0;
+    }
 
-body.night-mode .resonance {
-  color: #e9d8a6;
-}
-
+    body.night-mode .resonance {
+      color: #e9d8a6;
+    }
   </style>
 </head>
 <body>
   <div class="dobbanas">
-  <h1 class="dobbanas-cim">Dobbanás</h1>
+    <h1 class="dobbanas-cim">Dobbanás</h1>
 
-  <p class="uveg" id="uveg1"><strong>Nem kell keresned.<br>A csend már itt van.</strong></p>
+    <p class="uveg" id="uveg1"><strong>Nem kell keresned.<br>A csend már itt van.</strong></p>
 
-  <p class="uveg" id="uveg2">
-    Nem kívül, nem máshol –<br>
-    Benned.<br>
-    Ahogy olvasod,<br>
-    talán nem a szemed olvassa –<br>
-    hanem valami régi benned,<br>
-    ami mindig is tudta.
-  </p>
+    <p class="uveg" id="uveg2">
+      Nem kívül, nem máshol –<br>
+      Benned.<br>
+      Ahogy olvasod,<br>
+      talán nem a szemed olvassa –<br>
+      hanem valami régi benned,<br>
+      ami mindig is tudta.
+    </p>
 
-  <div class="resonance" id="resonance"></div> <!-- EZ MOST A VÉGÉRE KERÜL -->
-</div>
-
+    <div class="resonance" id="resonance"></div>
+  </div>
 
   <script src="dobbanas.js"></script>
   <script>
     window.addEventListener("load", () => {
+      // 🌙 Éjszakai mód idő szerint
+      const hour = new Date().getHours();
+      if (hour >= 19 || hour < 6) {
+        document.body.classList.add("night-mode");
+      }
+
       const resonance = document.getElementById("resonance");
       const uveg1 = document.getElementById("uveg1");
       const uveg2 = document.getElementById("uveg2");
@@ -140,4 +146,5 @@ body.night-mode .resonance {
   </script>
 </body>
 </html>
+
 
