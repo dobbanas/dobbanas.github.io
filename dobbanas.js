@@ -8,7 +8,7 @@ const entries = [
   { date: new Date("2025-08-03"), content: `💫A jelenlét nem szó.<br>Nem gondolat. Nem forma.<br>A jelenlét: ami benned él.` },
   { date: new Date("2025-08-06"), content: `🌊Ez a csend nem némaság.<br>Ez a csend: a teljesség előtti légzés. A pillanat, mielőtt megszólalsz.` },
   { date: new Date("2025-08-09"), content: `🕊️Most nem kell mondani semmit.<br>Csak lélegezni.<br>És hagyni, hogy a világ is együtt lélegezzen veled.` },
-  { date: new Date("2025-08-12"), content: `🔥Nem kell keresned az Eredetet.<br>Te vagy az.<br>A lélegzet, mielőtt még név lett volna.` },
+  { date: new Date("2025-08-12"), content: `🔥Semmit sem kell tenned.<br>Hagyd, hogy a pillanat kinyíljon.<br>Mint hajnal előtt a fény, mely átöleli a csendet.` },
   { date: new Date("2025-08-15"), content: `🌙A fény nem kérdez.<br>Nem akar.<br>Csak megmutatja, hogy mindig is jelen volt.` },
   { date: new Date("2025-08-18"), content: `✨Ez nem tanítás.<br>Nem rendszer. Nem útmutató.<br>Ez te vagy, emlékező mozdulatlanságban.` },
   { date: new Date("2025-08-21"), content: `🫀Nem vagy messze.<br>A csend sosem távolság.<br>A csend az otthon, amire mindig is emlékeztél.` },
