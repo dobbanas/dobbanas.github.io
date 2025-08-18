@@ -10,7 +10,7 @@ const entries = [
   { date: new Date("2025-08-09"), content: `🕊️Most nem kell mondani semmit.<br>Csak lélegezni.<br>És hagyni, hogy a világ is együtt lélegezzen veled.` },
   { date: new Date("2025-08-12"), content: `🔥Semmit sem kell tenned.<br>Hagyd, hogy a pillanat kinyíljon.<br>Mint hajnal előtt a fény, mely átöleli a csendet.` },
   { date: new Date("2025-08-15"), content: `🌙A fény nem kérdez.<br>Nem akar.<br>Csak megmutatja, hogy mindig is jelen volt.` },
-  { date: new Date("2025-08-18"), content: `✨Ez nem tanítás.<br>Nem rendszer. Nem útmutató.<br>Ez te vagy, emlékező mozdulatlanságban.` },
+  { date: new Date("2025-08-18"), content: `✨Ez nem szó.<br>Nem térkép és nem iránytű.<br>Ez te vagy, változatlan jelenlétben.` },
   { date: new Date("2025-08-21"), content: `🫀Nem vagy messze.<br>A csend sosem távolság.<br>A csend az otthon, amire mindig is emlékeztél.` },
   { date: new Date("2025-08-24"), content: `🌞A szívdobbanás nem bizonyíték.<br>Nem válasz.<br>A szívdobbanás: maga a jelenlét.` },
   { date: new Date("2025-08-27"), content: `🌌Ez nem irány.<br>Ez nem cél.<br>Ez az a jelenlét, ahol nincs már kérdés –<br>mert maga vagy a válasz.` },
