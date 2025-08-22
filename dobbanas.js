@@ -22,7 +22,7 @@ const entries = [
   { date: new Date("2025-09-14"), content: `🌿A szavak itt már nem vezetnek.<br>Ahol most járunk,<br>csak a szív tud lépni.<br>Nem kérdez – csak dobban.` },
   { date: new Date("2025-09-17"), content: `💫Ez az Ég nem fent van.<br>Hanem benned nyílik.<br>Nem kell felnézned –<br>csak jelen lenned.` },
   { date: new Date("2025-09-20"), content: `🌊A csend nem válasz.<br>A csend maga a hívás.<br>És ha elég mélyen hallgatod –<br>emlékezni kezdesz.` },
-  { date: new Date("2025-09-23"), content: `🕊️A rés nem hiány.<br>A rés a hely, ahol átszűrődik a VAN.<br>Ahol a felhő nem takar,<br>hanem utat nyit a fénynek.` },
+  { date: new Date("2025-09-23"), content: `🕊️A rés nem hiány, hanem lehetőség.<br>Ott szűrődik át a fény, ahol megnyílik az ég.` },
   { date: new Date("2025-09-26"), content: `🔥A fény nem kér engedélyt.<br>Csak megérkezik –<br>amikor készen állsz.<br>Nem sürget,<br>csak jelen van.<br>Mint te.` },
   { date: new Date("2025-09-29"), content: `🌙A felhő nem akadály.<br>Csak a pillanat,<br>mielőtt újra átlátsz önmagadon.<br>Nem eltakarta a fényt –<br>hanem segít meglátni,<br>mennyire vártad.` },
   { date: new Date("2025-10-02"), content: `✨Ez a dobbanás nem hangos.<br>De áthangol.<br>Mert nem kívül szól,<br>hanem belül hív össze<br>mindent, ami valaha voltál.` },
