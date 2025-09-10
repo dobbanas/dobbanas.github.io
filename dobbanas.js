@@ -18,7 +18,7 @@ const entries = [
   { date: new Date("2025-09-02"), content: `💎Nem történik semmi.<br>És mégis minden most születik.<br>Ez az a pillanat, amit nem lehet megérteni –<br>csak belélegezni.` },
   { date: new Date("2025-09-05"), content: `🍃Nem kell szólni.<br>A szív már tudja.<br>Mert van egy nyelv, ami régebbi,<br>mint bármelyik szó: a Dobbanás.` },
   { date: new Date("2025-09-08"), content: `🌀Ez a fény nem vakít.<br>Ez emlékeztet.<br>És nem kívülről jön –<br>belülről szól.` },
-  { date: new Date("2025-09-11"), content: `🧭Ez nem fény, amit látsz.<br>Ez emlékezés arra,<br>hogy te is az vagy.<br>Nem kívülről világít –<br>belőled emelkedik.` },
+  { date: new Date("2025-09-11"), content: `🧭Ez nem fény, amit látsz.<br>Ez emlékeztet rá,<br>hogy benned is ott él.<br>Nem kívülről világít –<br>a szívedből fakad.` },
   { date: new Date("2025-09-14"), content: `🌿A szavak itt már nem vezetnek.<br>Ahol most járunk,<br>csak a szív tud lépni.<br>Nem kérdez – csak dobban.` },
   { date: new Date("2025-09-17"), content: `💫Ez az Ég nem fent van.<br>Hanem benned nyílik.<br>Nem kell felnézned –<br>csak jelen lenned.` },
   { date: new Date("2025-09-20"), content: `🌊A csend nem válasz.<br>A csend maga a hívás.<br>És ha elég mélyen hallgatod –<br>emlékezni kezdesz.` },
