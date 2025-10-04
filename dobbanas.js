@@ -26,7 +26,7 @@ const entries = [
   { date: new Date("2025-09-26"), content: `🔥A fény nem kér engedélyt.<br>Csak megérkezik –<br>amikor készen állsz.<br>Nem sürget,<br>csak jelen van.<br>Mint te.` },
   { date: new Date("2025-09-29"), content: `🌙A felhő nem akadály.<br>Csak a pillanat,<br>mielőtt újra átlátsz önmagadon.<br>Nem eltakarta a fényt –<br>hanem segít meglátni,<br>mennyire vártad.` },
   { date: new Date("2025-10-02"), content: `✨Ez a dobbanás nem hangos.<br>De áthangol.<br>Mert nem kívül szól,<br>hanem belül hív össze<br>mindent, ami valaha voltál.` },
-  { date: new Date("2025-10-05"), content: `🫀Ez nem nézés.<br>Ez látás.<br>Nem a szemeddel –<br>hanem a figyelmeddel.<br>Ott, ahol már nincs külön –<br> - csak együtt.` },
+  { date: new Date("2025-10-05"), content: `🫀Ez nem nézés.<br>Ez látás.<br>Nem a szemeddel –<br>hanem a figyelmeddel.<br>Ott, ahol már nincs külön<br> - csak együtt.` },
   { date: new Date("2025-10-08"), content: `🌞És ez már nem válasz.<br>Nem következtetés.<br>Ez a VAN.<br>A pillanat, amikor nincs több kérdés –<br>mert magad vagy a válasz.` },
   { date: new Date("2025-10-11"), content: `🌌A belső látás nem kép.<br>Nem jelenet.<br>Hanem emlékezés arra,<br>amit soha nem felejtettél el.<br>Azt látod, aki mindig is voltál.` },
   { date: new Date("2025-10-14"), content: `🔔Nem kell szemed ahhoz, hogy láss.<br>Mert a szíved néz.<br>És amikor a szív néz,<br>már nem lát különbséget.<br>Csak igazat.` },
