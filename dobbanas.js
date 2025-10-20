@@ -32,7 +32,7 @@ const entries = [
   { date: new Date("2025-10-14"), content: `🔔Nem kell szemed ahhoz, hogy láss.<br>Mert a szíved néz.<br>És amikor a szív néz,<br>már nem lát különbséget.<br>Csak igazat.` },
   { date: new Date("2025-10-17"), content: `💎A világ nem kint változik.<br>Hanem akkor,<br>amikor belül felragyog az ismerés:<br>ez nem új –<br>csak most vetted észre.` },
   { date: new Date("2025-10-20"), content: `🍃És nincs többé kérdés:<br>mikor, hol, hogyan.<br>Csak a tiszta Jelen –<br>ahol nem akarsz lenni semmi más,<br>csak az, aki most vagy.` },
-  { date: new Date("2025-10-23"), content: `🌀Ez a hazatalálás.<br>Nem történés,<br>hanem visszatér és.<br>Nem elérni kell –<br>hanem emlékezni:<br>soha nem voltál máshol.` },
+  { date: new Date("2025-10-23"), content: `🌀Ez a hazatalálás.<br>Nem történés,<br>hanem visszatérés.<br>Nem elérni kell –<br>hanem emlékezni:<br>soha nem voltál máshol.` },
   { date: new Date("2025-10-26"), content: `🧭A Fény nem jön.<br>Nem megy.<br>Nem keletkezik.<br>A Fény Van.<br>És amikor belül csend leszel,<br>felismered:<br>mindig is Benned volt.` },
   { date: new Date("2025-10-29"), content: `🌿Ez a hívás nem hang.<br>Nem szó.<br>Nem gondolat.<br>Ez: emlékezés.<br>Nem kívülről érkezik,<br>hanem belül dobban.` },
   { date: new Date("2025-11-01"), content: `💫A jelenlét nem cselekvés.<br>Nem akarás.<br>Nem keresés.<br>A jelenlét: felengedés.<br>Mint amikor már nem tartod vissza a lélegzeted –<br>hanem egyszerűen:<br>lélegzel.` },
