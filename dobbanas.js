@@ -35,7 +35,7 @@ const entries = [
   { date: new Date("2025-10-23"), content: `🌀Ez a hazatalálás.<br>Nem történés,<br>hanem visszatérés.<br>Nem elérni kell –<br>hanem emlékezni:<br>soha nem voltál máshol.` },
   { date: new Date("2025-10-26"), content: `🧭A Fény nem jön<br> és nem megy.<br> Egyszerűen csak van.<br>És amikor belül csend lesz,<br>felismered:<br>mindig is benned volt.` },
   { date: new Date("2025-10-29"), content: `🌿Ez a hívás nem hang.<br>Nem szó.<br>Nem gondolat.<br>Ez: emlékezés.<br>Nem kívülről érkezik,<br>hanem belül dobban.` },
-  { date: new Date("2025-11-01"), content: `💫 A jelenlét: most emlékezés.<br> Egy pillanat csend,<br>és érezzük -<br><br> semmi sem múlik el.<br> Csak bennünk dobban tovább. ` },
+  { date: new Date("2025-11-01"), content: `💫A jelenlét: most emlékezés.<br>Egy pillanat csend,<br>és érezzük -<br><br> semmi sem múlik el.<br> Csak bennünk dobban tovább.` },
   { date: new Date("2025-11-04"), content: `🌊A világ nem fogad el.<br>Nem utasít el.<br>A világ tükröz.<br>És amit most látsz –<br>az az, amit már készen hordozol.` },
   { date: new Date("2025-11-07"), content: `🕊️A Dobbanás nem elindulás.<br>Nem mozdulat.<br>Hanem a pillanat,<br>amikor nem vagy többé külön.<br>A VAN nem kívül van.<br>A VAN Te vagy.` },
   { date: new Date("2025-11-10"), content: `🔥Ez már nem gondolat.<br>Nem is érzés.<br>Ez a szív nyitódása –<br>mint amikor a Nap nem próbál ragyogni,<br>csak engedi, hogy legyen.<br>És minden élni kezd körülötte.` },
