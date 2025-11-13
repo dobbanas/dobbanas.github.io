@@ -40,7 +40,7 @@ const entries = [
   { date: new Date("2025-11-07"), content: `🕊️A Dobbanás nem kezdet.<br>Nem mozdulat.<br>Csak egy pillanat,<br> amikor már nem vagy külön. ` },
   { date: new Date("2025-11-10"), content: `🔥A fény nem próbál ragyogni.<br>Csak van.<br>Mint a szív, <br>amikor kinyílik a világnak. ` },
   { date: new Date("2025-11-13"), content: `🌙Nem kell válasz.<br>Elég, <br> hogy vagy.` },
-  { date: new Date("2025-11-16"), content: `✨A világ nem kívül van.<br>Benned dobban.<br> Ott ér össze Ég és a Föld.` },
+  { date: new Date("2025-11-16"), content: `✨A világ nem kívül van.<br>Benned dobban.<br> Ott ér össze Ég és Föld.` },
   { date: new Date("2025-11-19"), content: `🫀Nem kell elérni a fényt.<br>Nem kell bizonyítani a méltóságot.<br>Elég megállni –<br>és hagyni, hogy átjárjon.<br>Mert az, ami igaz,<br>sosem kívülről érkezik.` },
   { date: new Date("2025-11-22"), content: `🌞Ez nem tanítás.<br>Nem hit.<br>Ez emlékeztetés.<br>Arra, hogy<br>a legnagyobb Erő<br>mindig is csendben várt rád –<br>benned.` },
   { date: new Date("2025-11-25"), content: `🌌Ez már nem a Nap fénye.<br>Ez a belső ragyogásod –<br>amit sosem kapcsoltak fel,<br>mert sosem volt sötét.<br>Most csak eltűnik,<br>ami közéd és közé állt.` },
