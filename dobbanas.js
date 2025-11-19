@@ -42,7 +42,7 @@ const entries = [
   { date: new Date("2025-11-13"), content: `🌙Nem kell válasz.<br>Elég, <br> hogy vagy.` },
   { date: new Date("2025-11-16"), content: `✨A világ nem kívül van.<br>Benned él.<br>A szívedben ér össze Ég és Föld.` },
   { date: new Date("2025-11-19"), content: `🫀A fényt nem kell elérni.<br>Csak megállni <br>és hagyni,hogy átjárjon.<br>Mert,ami igaz,<br>belülről születik.` },
-  { date: new Date("2025-11-22"), content: `🌞Ez nem tanítás.<br>Nem hit.<br>Ez emlékeztetés.<br>Arra, hogy<br>a legnagyobb Erő<br>mindig is csendben várt rád –<br>benned.` },
+  { date: new Date("2025-11-22"), content: `🌞Ez nem tanítás.<br>Csak egy kis emlékeztető:<br>amit keresel, belül vár rád-<br>csendben, türelmesen.` },
   { date: new Date("2025-11-25"), content: `🌌Ez már nem a Nap fénye.<br>Ez a belső ragyogásod –<br>amit sosem kapcsoltak fel,<br>mert sosem volt sötét.<br>Most csak eltűnik,<br>ami közéd és közé állt.` },
   { date: new Date("2025-11-28"), content: `🔔Dobban.<br>Nem kívül.<br>Nem messze.<br>Benned. Most.<br>És ez nem hang,<br>nem szó,<br>hanem a Teljesség<br>egy pillanata.` },
   { date: new Date("2025-12-01"), content: `💎Nem kell mondani semmit.<br>A Fény nem igényel szavakat.<br>Elég, ha vagy.<br>Mert amikor tényleg vagy –<br>az egész Mindenség<br>lélegezni kezd veled.` },
