@@ -45,7 +45,7 @@ const entries = [
   { date: new Date("2025-11-22"), content: `🌞Ez nem tanítás.<br>Csak egy kis emlékeztető:<br>amit keresel, belül vár rád-<br>csendben, türelmesen.` },
   { date: new Date("2025-11-25"), content: `🕊️Hallgattam.<br> és minden válasz megszületett bennem.` },
   { date: new Date("2025-11-28"), content: `🌀A fájdalom nem ellenem volt.<br>Hanem híd vissza magamhoz.` },
-  { date: new Date("2025-12-01"), content: `💎Nem kell mondani semmit.<br>A Fény nem igényel szavakat.<br>Elég, ha vagy.<br>Mert amikor tényleg vagy –<br>az egész Mindenség<br>lélegezni kezd veled.` },
+  { date: new Date("2025-12-01"), content: `💫A csend nem azt jelenti hogy várnom kell.<br>Hanem azt hogy már készen vagyok.` },
   { date: new Date("2025-12-04"), content: `🍃Ez nem emelkedés.<br>Nem út.<br>Ez hazatalálás<br>a csendbe,<br>ahol már minden megérkezett.` },
   { date: new Date("2025-12-07"), content: `🌀Nincs több kérdés.<br>Nincs több keresés.<br>A fény átvilágít mindenen –<br>és Te emlékszel.<br>Nem az elméddel.<br>A Lényeddel.` },
   { date: new Date("2025-12-10"), content: `🧭A pillanat nem csak idő.<br>Ez a tértelen jelen,<br>ahol a szív nem lüktet –<br>hanem együtt rezdül<br>a Mindenséggel.` },
