@@ -49,7 +49,7 @@ const entries = [
   { date: new Date("2025-12-04"), content: `🍃Ez nem várakozás.<br>Ez a csend,<br>ahol minden már úton van<br>és most válik láthatóvá.` },
   { date: new Date("2025-12-07"), content: `🌀A csendben minden a helyére esik.<br>Nincs sietség.<br>Ami megjelenik–<br> már itt volt.` },
   { date: new Date("2025-12-10"), content: `🧭A pillanat nem idő<br> hanem jelenlét-<br>ahol a szív nem lüktet,<br>hanem együtt rezdül<br>a Mindenséggel.` },
-  { date: new Date("2025-12-13"), content: `🌿Amikor benned letisztult a látás,<br>már nem kellett keresned.<br>A múlt és a jövő egy helyre ért-<br>benned.` },
+  { date: new Date("2025-12-13"), content: `🌿Amikor benned letisztult a látás,<br>már nem kellett keresned.<br>A múlt és a jövő egy helyre ért-benned.` },
   { date: new Date("2025-12-16"), content: `💫Nem az ég nyílt meg.<br>Te nyíltál meg<br>az Égre.<br>És a fény nem jött –<br>csak mindig is ott volt,<br>és most végre<br>engeded.` },
   { date: new Date("2025-12-19"), content: `🌊Ez a dobbanás<br>nem a szívből indul –<br>hanem az Eredetből.<br>És ahogy áthullámzik rajtad,<br>már nem vagy külön.<br>Már nem vagy egyedül.` },
   { date: new Date("2025-12-22"), content: `🕊️Most csend van.<br>De nem üres.<br>Ez a telített csend,<br>ami nem vár többé semmire –<br>mert Te megérkeztél.<br>Önmagadba.` },
