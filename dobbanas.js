@@ -55,7 +55,7 @@ const entries = [
   { date: new Date("2025-12-22"), content: `🕊️Most csend van.<br>Minden a helyén van.<br>Nem kell tovább menni.<br>Nem vagy egyedül.` },
   { date: new Date("2025-12-25"), content: `🌌Ma nem kívülről jön a fény.<br>Csak felismerhetővé válik az,<br>Aki mindig is hordozott minket.` },
   { date: new Date("2025-12-28"), content: `🌙A szív nem kérdez.<br>A szív tud.<br>Amit tud,<br>azt nem tanulta.<br>Az mindig is ott volt` },
-  { date: new Date("2025-12-31"), content: `✨Minden lélegzet híd.<br>Nem a test és a levegő között –<br>hanem a jelenlét<br>és a Teljesség között.<br>És most átléptél rajta.<br>Nem kifelé –<br>hanem beljebb.` },
+  { date: new Date("2025-12-31"), content: `✨Minden lélegzet híd.<br>A jelenlét felől<br>valami tágasabb felé.<br>Nem kifelé vezet-<br>hanem beljebb.` },
   { date: new Date("2026-01-03"), content: `🫀A fény nem vakít.<br>A fény felébreszt.<br>És ha most hunyorogsz is –<br>a szemed nem csukódik be többé,<br>mert a látás<br>belül van.` },
   { date: new Date("2026-01-06"), content: `🌞Ez már nem élmény.<br>Ez maga az élet.<br>Nem múltból épül,<br>nem jövőt keres –<br>csak dobban<br>itt.<br>Most.<br>Veled.` },
   { date: new Date("2026-01-09"), content: `🌌Ez nem új.<br>Ez az, ami mindig is volt.<br>Nem kellett megtalálni –<br>csak abbahagyni a keresést.<br>És hallani,<br>ahogy belülről hív az a tér,<br>ahol sosem volt hiány.` },
