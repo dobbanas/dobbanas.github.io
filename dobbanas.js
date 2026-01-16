@@ -61,7 +61,7 @@ const entries = [
   { date: new Date("2026-01-09"), content: `🌌Ez mindig itt volt.<br>Csak észre kellett venni:<br>a Jelenlét eddig is megtartott.` },
   { date: new Date("2026-01-12"), content: `🔔A legmélyebb hely nem messze van.<br> Akkor találod meg, amikor megállsz egy pillanatra<br>és csendben magadra figyelsz.` },
   { date: new Date("2026-01-15"), content: `💎Nem külön vagyunk.<br>Együtt dobbanunk.<br>Egy ritmusban,<br>egy lélegzetben.` },
-  { date: new Date("2026-01-18"), content: `🍃A legmélyebb hívás nem kívülről jön.<br>Nem hang –<br>nem szó.<br>Csak tudás,<br>ami nem tanult,<br>hanem örök.<br>És most újra hallod.` },
+  { date: new Date("2026-01-18"), content: `🍃Nem minden válasz jön kívülről.<br>Van, amit csak megérzel.<br>És ez most ilyen.` },
   { date: new Date("2026-01-21"), content: `🌀Itt vagy.<br>Mindig is itt voltál.<br>Most csak elhalkult benned a világ,<br>hogy végre meghallhasd:<br>a Dobbanás<br>nem kívül történik.<br>Hanem benned.<br>Most.<br>És örökre.` },
   { date: new Date("2026-01-24"), content: `🧭Nem értettem, csak éreztem.<br>És ez több volt minden szónál.` },
   { date: new Date("2026-01-27"), content: `🌿Amikor nem kerestem, megtaláltam.<br>Mert végre nem máshol voltam, hanem itt.` },
