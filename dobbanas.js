@@ -67,7 +67,7 @@ const entries = [
   { date: new Date("2026-01-27"), content: `🌿Amikor nem kerestem, megtaláltam.<br>Mert végre nem máshol voltam, hanem itt.` },
   { date: new Date("2026-01-30"), content: `🌞Ez már nem válasz.<br>Nem kell magyarázat.<br>Csak ez a pillanat van, ahol minden kicsit elcsendesül,<br>és mégis: minden él.` },
   { date: new Date("2026-02-02"), content: `🌊Azt hittem, hiányzik valami.<br>Aztán rájöttem: túl sok volt körülöttem.` },
-  { date: new Date("2026-02-05"), content: `🔥Nem szó,nem gondolat.<br>Egy belső dobbanás,<amit csak hagyni kell.` },
+  { date: new Date("2026-02-05"), content: `🔥Nem szó,nem gondolat.<br>Egy belső dobbanás,<br>amit csak hagyni kell.` },
   { date: new Date("2026-02-08"), content: `🔥Nem jött semmi új.<br>Csak felismertem, ami mindig is ott volt.` },
   { date: new Date("2026-02-11"), content: `🌙A testem tudta, amit a fejem tagadott.<br>És a csend megengedte, hogy figyeljek rá.` },
   { date: new Date("2026-02-14"), content: `✨Nem lettem más.<br>Csak visszatértem ahhoz, aki voltam.` },
