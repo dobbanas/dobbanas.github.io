@@ -87,7 +87,7 @@ const entries = [
   { date: new Date("2026-03-28"), content: `🌙A válasz nem jött kívülről.<br>Hanem csendben bólintott bennem valami.` },
   { date: new Date("2026-03-31"), content: `✨Nem néztem az időt.<br>És végre valóban ott voltam.` },
   { date: new Date("2026-04-03"), content: `🫀Nem volt cél.<br>És minden megtörtént magától.` },
-  { date: new Date("2026-04-06"), content: `🌞Megálltam egy fához érve.<br>Ő nem kérdezett – mégis tudtam.` },
+  { date: new Date("2026-04-06"), content: `🌞Megálltam egy fa mellett.<br>Csend volt – és mégis válasz.` },
   { date: new Date("2026-04-09"), content: `🌌Valami megmozdult bennem.<br>De kívül minden nyugodt maradt.` },
   { date: new Date("2026-04-12"), content: `🔔Lehunytam a szemem.<br>És először láttam tisztán.` },
   { date: new Date("2026-04-15"), content: `💎Nem akartam többé eljutni sehová.<br>És hirtelen hazaértem.` },
