@@ -94,7 +94,7 @@ const entries = [
   { date: new Date("2026-04-18"), content: `🍃A szél suttogott valamit.<br>A szívem megértette.` },
   { date: new Date("2026-04-21"), content: `🌀Nem kellett bizonyítanom semmit.<br>Csak lélegezni tovább.` },
   { date: new Date("2026-04-24"), content: `🧭Eltűnt belőlem a küzdelem.<br>És a világ is megszelídült.` },
-  { date: new Date("2026-04-27"), content: `🌿Nem volt nehéz.<br>Csak abbahagyni a szorítást.` },
+  { date: new Date("2026-04-27"), content: `🌿Nem volt nehéz.<br>Csak abbahagyni a kapaszkodást.` },
   { date: new Date("2026-04-30"), content: `💫Az eső megérintett.<br>Nem áztam – csak megnyíltam.` },
   { date: new Date("2026-05-03"), content: `🌊Már nem kérdeztem, hogy miért.<br>Csak mentem, és a válasz jött velem.` },
   { date: new Date("2026-05-06"), content: `🕊️Nem szólt hozzám senki.<br>De mindenhonnan hallottam.` },
