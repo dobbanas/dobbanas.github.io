@@ -106,7 +106,7 @@ const entries = [
   { date: new Date("2026-05-24"), content: `🌌Nem válaszoltam meg a kérdést.<br>Csak megéreztem, hogy már nincs is rá szükség.` },
   { date: new Date("2026-05-27"), content: `🔔Nem kerestem többé önmagam.<br>És akkor találtam haza.` },
   { date: new Date("2026-05-30"), content: `💎Nem volt szükségem bizonyosságra.<br>Mert a csendben biztosabb lett minden.` },
-  { date: new Date("2026-06-02"), content: `🍃Egy madár repült el felettem.<br>És vitt magával egy pillanatra.` },
+  { date: new Date("2026-06-02"), content: `🍃Egy madár repült el felettem.<br>Egy pillanatra minden egyszerű lett.` },
   { date: new Date("2026-06-05"), content: `🌀Nem gyógyultam meg.<br>Csak többé nem fájt.` },
   { date: new Date("2026-06-08"), content: `🧭A kezem nem tett semmit.<br>És mégis – minden mozdult körülötte.` },
   { date: new Date("2026-06-11"), content: `🌿Megálltam a mondat közepén.<br>És ott hallottam meg az igazságot.` },
