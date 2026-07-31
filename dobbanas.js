@@ -126,7 +126,7 @@ const entries = [
   { date: new Date("2026-07-23"), content: `🧭A csend nem üres volt.<br>Hanem megtelt jelenléttel.` },
   { date: new Date("2026-07-26"), content: `🌿Nem volt célom megérteni.<br>Csak figyelni – és minden értett engem.` },
   { date: new Date("2026-07-29"), content: `💫A fény nem jött kívülről.<br>Csak levettem a takarást.` },
-  { date: new Date("2026-08-01"), content: `🌊Nem lettem más.<br>Csak visszatértem önmagamba.` },
+  { date: new Date("2026-08-01"), content: `🌊Nem lettem más.<br>Csak visszatértem önmagamhoz.` },
   { date: new Date("2026-08-04"), content: `🕊️A szívem nem dobban hangosan.<br>De minden pillanatot megérint.` },
   { date: new Date("2026-08-07"), content: `🔥Nem harcoltam többé.<br>És a világ is letette a fegyvert bennem.` },
   { date: new Date("2026-08-10"), content: `🌙Nem volt miért, nem volt hogyan.<br>Csak egyetlen: igen.` },
