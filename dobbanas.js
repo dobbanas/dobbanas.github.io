@@ -128,7 +128,7 @@ const entries = [
   { date: new Date("2026-07-29"), content: `💫A fény nem jött kívülről.<br>Csak levettem a takarást.` },
   { date: new Date("2026-08-01"), content: `🌊Nem lettem más.<br>Csak visszatértem önmagamhoz.` },
   { date: new Date("2026-08-04"), content: `🕊️A szívem nem dobban hangosan.<br>De minden pillanatot megérint.` },
-  { date: new Date("2026-08-07"), content: `🔥Nem harcoltam többé.<br>És a világ is letette a fegyvert bennem.` },
+  { date: new Date("2026-08-07"), content: `🔥Nem harcoltam többé.<br>... a világ letette a fegyvert bennem.` },
   { date: new Date("2026-08-10"), content: `🌙Nem volt miért, nem volt hogyan.<br>Csak egyetlen: igen.` },
   { date: new Date("2026-08-13"), content: `✨Megláttam a fában az otthont.<br>És nem volt többé idegen a világ.` },
   { date: new Date("2026-08-16"), content: `🫀Nem kellett több szó.<br>Csak egymás szemébe nézni.` },
