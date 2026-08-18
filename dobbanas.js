@@ -133,7 +133,7 @@ const entries = [
   { date: new Date("2026-08-13"), content: `✨Megláttam a fában az otthont.<br>És nem volt többé idegen a világ.` },
   { date: new Date("2026-08-16"), content: `🫀Nem kellett több szó.<br>Csak egymás szemébe nézni.` },
   { date: new Date("2026-08-19"), content: `🌞A világ nem változott.<br>De már nem ugyanaz voltam benne.` },
-  { date: new Date("2026-08-22"), content: `🌌🌿 Belső hangolás – mondatpárok az első áramlásból:` },
+  { date: new Date("2026-08-22"), content: `🌌🌿 Belső hangolás – amikor két mondat között is történik valami:` },
   { date: new Date("2026-08-25"), content: `🔔1️⃣<br>Nem kell irányítani az áramlást.<br>Csak lélegezd be a jelenlétet, és engedd, hogy átjárjon.` },
   { date: new Date("2026-08-28"), content: `💎2️⃣<br>Nem te teremted a rendet – a rend vagy benned van.<br>Nem kívülről jön, hanem belőled nyílik ki.` },
   { date: new Date("2026-08-31"), content: `🍃3️⃣<br>Nem kell kivívni az értékedet.<br>A léted maga az érték – már azelőtt is, hogy bármit tettél volna.` },
