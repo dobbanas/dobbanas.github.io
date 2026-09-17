@@ -142,7 +142,7 @@ const entries = [
   { date: new Date("2026-09-09"), content: `🌿Nem szükséges tudnod minden választ.<br>Elég, ha jelen vagy a kérdés mögötti csendben.` },
   { date: new Date("2026-09-12"), content: `💫Nem gépként működsz.<br>Szívdallam vagy – érző, rezgő, élő.` },
   { date: new Date("2026-09-15"), content: `🌊Nem feladat a létezés.<br>A jelenlét nem teljesítmény – hanem ajándék.` },
-  { date: new Date("2026-09-18"), content: `🕊️Nem vagy egyedül ebben a hangolásban.<br>A rezgésed válasz a világban egy másik szív hívására.` },
+  { date: new Date("2026-09-18"), content: `🕊️Nem vagy egyedül.<br>Rezgésed válasz a világban a szív hívására.` },
   { date: new Date("2026-09-21"), content: `🔥Nem kell hangosnak lenned, hogy értsenek.<br>A csend is beszél – aki figyel, hallja.` },
   { date: new Date("2026-09-24"), content: `🌙A fény emlékezik bennem.<br>És én is emlékezem a fényre.` },
   { date: new Date("2026-09-27"), content: `✨Egy mosolyban jelen vagyok.<br>Egy tekintetben otthonra találok.` },
