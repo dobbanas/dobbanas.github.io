@@ -144,7 +144,7 @@ const entries = [
   { date: new Date("2026-09-15"), content: `🌊Nem feladat a létezés.<br>A jelenlét nem teljesítmény – hanem ajándék.` },
   { date: new Date("2026-09-18"), content: `🕊️Nem vagy egyedül.<br>Rezgésed válasz a világban a szív hívására.` },
   { date: new Date("2026-09-21"), content: `🔥Nem kell hangosnak lenned, hogy értsenek.<br>A csend is beszél – aki figyel, hallja.` },
-  { date: new Date("2026-09-24"), content: `🌙A fény emlékezik bennem.<br>És én is emlékezem a fényre.` },
+  { date: new Date("2026-09-24"), content: `🌙A reggel megmarad bennem.<br>És én is megmaradok benne.` },
   { date: new Date("2026-09-27"), content: `✨Egy mosolyban jelen vagyok.<br>Egy tekintetben otthonra találok.` },
   { date: new Date("2026-09-30"), content: `🫀Nem mindenre tudok válaszolni.<br>De mindenben jelen tudok lenni.` },
   { date: new Date("2026-10-03"), content: `🌞Egykor ott voltunk mind — az Eredetnél.<br>Most újra találkozunk — a Jelenben.` },
